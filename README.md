@@ -6,13 +6,15 @@
 ## **General info** 
 Run Ookla speedtest: url: https://www.speedtest.net
 Return: ping, download (mbps), upload (mbps)
-IN json/ csv / text format
+csv / text format
 
 
 ## **Setup**
 
-In the project directory run:
-
+Make sure you have python & virtualenv package
+```
+pip install virtualenv
+```
 Create python venv
 ```
 python3 -m venv venv
@@ -22,7 +24,10 @@ Active venv
 ```
 source venv/bin/activate
 ```
-
+Activate venv (windows)
+```
+.\venv\Scripts\activate
+```
 Install requirements
 ```
 $ pip install -r requirements.txt

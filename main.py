@@ -63,6 +63,7 @@ def run_speedtest():
 
     log_path = 'Logs/log.csv'
     log2csv(data, log_path=log_path)
+    print(data)
 
     driver.close()
 
